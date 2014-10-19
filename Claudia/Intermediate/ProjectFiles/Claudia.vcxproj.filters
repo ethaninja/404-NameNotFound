@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Claudia.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{E5FEF056-AEF7-49A3-B3A2-E1DB9E17B767}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Claudia.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\ClaudiaEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{E8A9097E-2B9A-4BD8-B9FC-4EB1D1386521}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Claudia">
+			<UniqueIdentifier>{934D712E-0736-4C01-9D03-1696D0B68037}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Claudia\Claudia.Build.cs">
+			<Filter>Source\Claudia</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Claudia\Claudia.cpp">
+			<Filter>Source\Claudia</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Claudia\Claudia.h">
+			<Filter>Source\Claudia</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Claudia\ClaudiaCharacter.cpp">
+			<Filter>Source\Claudia</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Claudia\ClaudiaCharacter.h">
+			<Filter>Source\Claudia</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Claudia\ClaudiaGameMode.cpp">
+			<Filter>Source\Claudia</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Claudia\ClaudiaGameMode.h">
+			<Filter>Source\Claudia</Filter>
+		</ClInclude >
+		<Filter Include="Source\Claudia\Resources">
+			<UniqueIdentifier>{F4027AEB-8DDF-413B-8B99-F58BD5CB867D}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\Claudia\Resources\Windows">
+			<UniqueIdentifier>{B4DE22EA-2965-4135-9377-95A22368DF1A}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Claudia\Resources\Windows\Claudia.ico">
+			<Filter>Source\Claudia\Resources\Windows</Filter>
+		</None >
+		<ResourceCompile Include="..\..\Source\Claudia\Resources\Windows\Claudia.rc">
+			<Filter>Source\Claudia\Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>

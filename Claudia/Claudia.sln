@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Claudia", "Intermediate\ProjectFiles\Claudia.vcxproj", "{8F946644-09D5-46A9-8B90-B1454F78ECDB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		DebugGame Editor|Windows = DebugGame Editor|Windows
+		DebugGame|Windows = DebugGame|Windows
+		Development Editor|Windows = Development Editor|Windows
+		Development|Windows = Development|Windows
+		Shipping|Windows = Shipping|Windows
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F946644-09D5-46A9-8B90-B1454F78ECDB}.DebugGame Editor|Windows.ActiveCfg = DebugGame_Editor|x64
+		{8F946644-09D5-46A9-8B90-B1454F78ECDB}.DebugGame Editor|Windows.Build.0 = DebugGame_Editor|x64
+		{8F946644-09D5-46A9-8B90-B1454F78ECDB}.DebugGame|Windows.ActiveCfg = DebugGame_RocketGame|x64
+		{8F946644-09D5-46A9-8B90-B1454F78ECDB}.DebugGame|Windows.Build.0 = DebugGame_RocketGame|x64
+		{8F946644-09D5-46A9-8B90-B1454F78ECDB}.Development Editor|Windows.ActiveCfg = Development_Editor|x64
+		{8F946644-09D5-46A9-8B90-B1454F78ECDB}.Development Editor|Windows.Build.0 = Development_Editor|x64
+		{8F946644-09D5-46A9-8B90-B1454F78ECDB}.Development|Windows.ActiveCfg = Development_RocketGame|x64
+		{8F946644-09D5-46A9-8B90-B1454F78ECDB}.Development|Windows.Build.0 = Development_RocketGame|x64
+		{8F946644-09D5-46A9-8B90-B1454F78ECDB}.Shipping|Windows.ActiveCfg = Shipping_RocketGame|Win32
+		{8F946644-09D5-46A9-8B90-B1454F78ECDB}.Shipping|Windows.Build.0 = Shipping_RocketGame|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal
